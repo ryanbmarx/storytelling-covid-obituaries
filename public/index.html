@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf8" />
+		<meta name="viewport" content="width=device-width" />
+
+		<title>Covid obituaries wall of names prototype</title>
+
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cpt-static.gannettdigital.com/universal-web-client/master/latest/gallium/themes/universal-polyfill.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://www.gannett-cdn.com/usat-storytelling/lab-microservices-master/static/css/in-depth/base.css?34883f2"
+		/>
+
+		<link rel="stylesheet" href="bundle.css" />
+		<style>
+			html body {
+				--theme-color: #fed874;
+				--theme-color-text: purple;
+			}
+
+			article {
+				padding: 0 var(--article-padding-horiz, 20px);
+			}
+
+			article > p {
+				max-width: 700px;
+				margin: 0 auto 1em auto;
+			}
+		</style>
+		<script defer src="bundle.js"></script>
+	</head>
+
+	<body>
+		<article>
+			<main id="covid-obituaries-names"></main>
+		</article>
+	</body>
+	<footer style="display: flex; height: 250px; background: #aaa;">
+		<p style="margin: auto;"><em>This footer is faked for spacing purposes.</em></p>
+	</footer>
+</html>
